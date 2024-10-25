@@ -14,5 +14,4 @@ public class VariablesDemo {
 		System.out.println(message);
 		
 	}
-
 }
