@@ -1,4 +1,4 @@
-package Basicsofjava;
+package org.tnsif.capgemini.c2tc.Basicsofjava;
 
 public class ArrayDemo {
 

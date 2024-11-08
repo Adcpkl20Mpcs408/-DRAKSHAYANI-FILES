@@ -1,4 +1,4 @@
-package Basicsofjava;
+package org.tnsif.capgemini.c2tc.Basicsofjava;
 public class VariablesDemo {
 			int id=10; //instance variable
 			void print()

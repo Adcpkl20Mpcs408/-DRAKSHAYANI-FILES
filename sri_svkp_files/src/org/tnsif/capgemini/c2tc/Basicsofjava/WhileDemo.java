@@ -1,4 +1,4 @@
-package Basicsofjava;
+package org.tnsif.capgemini.c2tc.Basicsofjava;
 public class WhileDemo {
 
 	public static void main(String[] args) {
