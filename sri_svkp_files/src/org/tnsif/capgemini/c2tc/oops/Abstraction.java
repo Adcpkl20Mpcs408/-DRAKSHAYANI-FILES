@@ -3,7 +3,7 @@ package org.tnsif.capgemini.c2tc.oops;
 public class Abstraction {
 
 	public static void main(String[] args) {
-		MaheshDemo obj=new RameshDemo();
+		RoshanDemo obj=new ArunDemo();
 		obj.calling();
 		obj.AIIntegration();
 		obj.SatelliteComm();
@@ -11,7 +11,7 @@ public class Abstraction {
 	}
 
 }
-abstract class MaheshDemo{    //2015
+abstract class RoshanDemo{    //2015
 	public void calling() //concrete method
 	{
 		System.out.println("calling");
@@ -23,7 +23,7 @@ abstract class MaheshDemo{    //2015
 	
 }
 
-abstract class SureshDemo extends MaheshDemo //2016
+abstract class AravindDemo extends RoshanDemo //2016
 {
 	public void AIIntegration()
 	{
@@ -32,7 +32,7 @@ abstract class SureshDemo extends MaheshDemo //2016
 	
 }
 
-class RameshDemo extends SureshDemo                 //2017
+class ArunDemo extends AravindDemo                 //2017
 {
 	@Override
 	public void SatelliteComm() {
